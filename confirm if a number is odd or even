@@ -1,0 +1,19 @@
+# confirm if the number is even or odd
+
+number = int(input("Select a number:"))
+
+if number % 2 == 0:
+    print("Your number is even")
+else:
+    print("Your number is odd")    
+
+
+# This is a different code but with the same purpose
+def check_number(number):
+    if number % 2 == 0:
+        return "This number is Even"
+    else:
+        return "this number is Odd"
+    
+print(check_number(5))
+
