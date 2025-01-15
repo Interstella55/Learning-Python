@@ -1,0 +1,8 @@
+# company wants to calculate years left to retire
+
+name = input("What's your name? ")
+age = int(input("How old are you? "))
+calculate = 2025 - age + 65
+
+print(f"{name}, you will retire in {calculate}.")
+
