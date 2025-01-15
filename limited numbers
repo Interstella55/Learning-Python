@@ -1,0 +1,10 @@
+# this is an example to limit the calculation to be too long, example: 0.254785558545555555. In this case, the number is limited to an amount (0.35) or (0.235).
+# Example of an import(could be anything)
+from decimal import Decimal
+
+# ((numbers) should be used with the numbers you want)
+two_decimal_points = Decimal('0.2') + Decimal('0.69')
+print(two_decimal_points)
+
+four_decimal_points = Decimal('0.53') * Decimal('0.65')
+print(four_decimal_points)
